@@ -1,0 +1,111 @@
+header {
+    color: black;
+    width:100%;
+}
+
+.headerAlignment {
+    display: inline-block;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Lucida Sans';
+    color: black;
+    background: #FFFCF4;
+}
+
+.logo {
+    width:20%;
+    margin-left:5%;
+    float: left;
+}
+
+nav {
+    width:100%;
+    margin-right:10%;
+    text-align: right;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    width: 65%;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heroImg {
+    height: 225px;
+    width: 100%;
+    display: inline-block;
+    background-image: url("../images/Screenshot 2023-04-23 at 11.50 1.png");
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+
+}
+
+p {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Poppins';
+    font-weight: 900;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #FFFCF4;
+    padding: 10px 20px;
+    display: center;
+    border: 1px solid #C885FC;      
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+footer {
+    background-color: #FFFCF4;
+    padding: 0px;
+    display: center;
+    width: 100%;
+}  
+
+footer ul {
+    padding-right: 10%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    float: right;
+}
+
+footer li {
+    display: inline-block;
+    display: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins'
+}
